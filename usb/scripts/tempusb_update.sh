@@ -1,4 +1,4 @@
-#!/bin/sh
+﻿#!/bin/sh
 
 eval `dbus export tempusb_`
 
