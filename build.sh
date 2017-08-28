@@ -1,3 +1,3 @@
-#!/bin/sh
+﻿#!/bin/sh
 
-tar zcvf aliddns.tar.gz aliddns
+tar zcvf tempusb.tar.gz tempusb
