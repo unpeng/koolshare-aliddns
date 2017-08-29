@@ -8,3 +8,11 @@ if [ "$tempusb_enable" != "1" ]; then
 fi
 
 now=`date`
+
+die(){
+	echo $1
+	dbus ram tempusb_last_act="$now:failed($1)"
+
+}
+
+dbus ram tempusb_last_act="$now:failed"
